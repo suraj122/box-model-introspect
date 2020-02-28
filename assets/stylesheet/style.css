@@ -128,84 +128,82 @@ table {
   border-spacing: 0;
 }
 
-/****** General *****/
+/* General */
+
 body {
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-/* Container */
 .container {
   width: 1200px;
   margin: 0 auto;
 }
-/* Button */
 .btn {
   background-color: transparent;
-  border: 1.5px solid #ffffff;
-  color: #ffffff;
-  padding: 8px 12px;
-  font-size: 18px;
+  padding: 12px 24px;
+  color: #fff;
+  border: 2px solid #fff;
   text-transform: uppercase;
-  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
 }
-
-/* Padding */
 .padding {
   padding: 80px 0;
 }
-
-/* Heading */
 .heading {
   font-size: 24px;
-  text-transform: uppercase;
   color: crimson;
-  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 16px;
+  margin: 24px 0;
+  color: #494949;
 }
 
 /* Header */
 .header {
   background-color: #272727;
-  padding: 20px 0;
+  padding: 16px 0;
 }
+.logo,
+.nav-menu {
+  display: inline-block;
+}
+
 .logo {
-  width: 180px;
-  display: inline-block;
-}
-.logo h1 {
-  display: inline-block;
+  width: 300px;
   color: crimson;
   font-size: 32px;
+  text-decoration: none;
 }
-.nav-links {
-  width: calc(100% - 186px);
-  display: inline-block;
+.nav-menu {
+  width: calc(1200px - 320px);
   text-align: right;
 }
-.nav-links a {
+.nav-menu a {
+  font-size: 20px;
   text-decoration: none;
-  color: #ffffff;
   text-transform: uppercase;
-  font-size: 18px;
-  margin-left: 32px;
+  margin-left: 30px;
+  color: #fff;
 }
 
 /* Hero */
 .hero {
   background-color: #272727;
-  padding: 150px 0;
+  padding: 100px 0;
+  color: #fff;
 }
 .hero-heading {
-  font-size: 24px;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-weight: 600;
-  width: 660px;
+  font-size: 32px;
+  width: 600px;
 }
 .hero-text {
-  color: #ffffff;
-  width: 500px;
-  margin: 16px 0;
-  font-weight: 300;
+  font-size: 20px;
+  width: 450px;
+  margin: 30px 0;
 }
 
 /* Secondary */
@@ -216,41 +214,44 @@ body {
 
 /* Tertiary */
 .tertiary {
-  background-color: #fafafa;
+  background-color: #f1f0f0;
   text-align: center;
 }
 .circle {
-  width: 200px;
   height: 200px;
+  width: 200px;
   border-radius: 50%;
   background-color: crimson;
   display: inline-block;
-  margin-bottom: 16px;
+  margin-top: 24px;
 }
 
 /* Footer */
 .footer {
   background-color: crimson;
+  color: #fff;
 }
 .footer .heading {
-  color: #ffffff;
+  color: #fff;
 }
-label {
-  color: #ffffff;
-  margin-bottom: 8px;
-  display: inline-block;
-  text-transform: uppercase;
+.form {
+  margin-top: 24px;
 }
 .form-control {
   display: block;
   width: 100%;
   background-color: transparent;
-  border: 1px solid #ffffff;
-  padding: 8px 12px;
-  font-size: 18px;
-  margin-bottom: 32px;
+  padding: 12px 16px;
+  border: 1px solid #fff;
+  margin-bottom: 16px;
 }
-.copyright {
-  color: #ffffff;
-  margin-top: 32px;
+
+.label {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+small {
+  margin-top: 24px;
+  display: inline-block;
 }
